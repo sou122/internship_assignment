@@ -1,0 +1,313 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+	<title>CSS example</title>
+	<link rel="stylesheet" href="https://www.w3schools.com/w3css/4/w3.css">
+	<script src="https://kit.fontawesome.com/8e186ad8b3.js" crossorigin="anonymous"></script>
+	<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css">
+     <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
+	<style>
+		.alert {
+			margin-left: 40px;
+			margin-right: 290px;
+			margin-top: 45px;
+			width: 50%;
+		}
+
+		input[type=submit] {
+			cursor: pointer;
+		}
+
+		input {
+			border-radius: 6px;
+			padding: 5px 10px;
+			outline: none;
+			margin-right: 5px;
+			background-color: white;
+		}
+
+		.loginDetails {
+			text-align: center;
+			padding-top: 12px;
+			display: flex;
+			justify-content: flex-end;
+			padding: 10px;
+			margin-right: 40px;
+		}
+
+		body {
+			margin: 0;
+		}
+
+		ul {
+			list-style-type: none;
+			margin: 0;
+			padding: 0;
+			overflow: hidden;
+			background-color: #333;
+		}
+
+		li {
+			float: left;
+		}
+
+		li a {
+			display: block;
+			color: white;
+			text-align: center;
+			padding: 14px 16px;
+			text-decoration: none;
+		}
+
+		li a:hover {
+			background-color: #111;
+		}
+
+		.tsynergize {
+			border: 1px solid #f0f0f0;
+			margin-top: 60px;
+			width: 25%;
+			margin-left: 30px;
+		}
+
+		.tsynergize th {
+			background-color: #f0f0f0;
+		}
+		.grid-container {
+      display: grid;
+      grid-template-columns: auto auto auto auto;
+      grid-gap: 10px;
+      background-color: lightgray;
+      padding: 10px;
+	  margin-top: 1px;
+	 
+    }
+    
+    .grid-container > div {
+      
+      text-align: left;
+      padding: 20px 0;
+      font-size: 15px;
+    }
+    
+    .item1,.item2,.item3 {
+      grid-row-end: span 3;
+    }
+
+	#left{    
+ float: left;  
+ }  
+
+ .New-Btn {
+  border-radius: 10px;
+  float: right;
+  margin-right: 20px;
+  background-color: gray;
+  color: white;
+  border: none;
+}
+ 
+	</style>
+</head>
+
+<body>
+	<nav>
+		<div class="w3-bar w3-black">
+			<ul>
+				<div>
+					<li><a href="#logo"><i class="fas fa-globe-asia"></i>Logo</a></li>
+				</div>
+				<div>
+					<li><a class="active" href="#home">Home</a></li>
+				</div>
+				<div>
+					<li><a href="#about">About</a></li>
+				</div>
+				<div>
+					<li><a href="#products">Products</a></li>
+				</div>
+				
+				<div class="w3-dropdown-hover" >
+					<button class="w3-button" style="color:white; position:fixed; top:5px;" >Services <i class="fa fa-caret-down"></i></button>
+					<div class="w3-dropdown-content w3-bar-block w3-card-4" style=" position:fixed;z-index: 999; top:35px;">
+					  <a href="#" class="w3-bar-item w3-button">Service 1</a>
+					  <a href="#" class="w3-bar-item w3-button">Service 2</a>
+					  <a href="#" class="w3-bar-item w3-button">Service 3</a>
+					</div>
+				  </div>
+			
+				<div class="loginDetails">
+					<li><input type="text" name="email" placeholder="Email"></li>
+					<li><input type="password" name="password" placeholder="Password"></li>
+          <font color="gray">
+					<li><input type="submit" name="submit" value="Sign in" placeholder="Sign In"></li></font>
+				</div>
+			</ul>
+		</div>
+	</nav>
+	<div style="display: flex; justify-content: center; height: 350px;">
+		<table class="tsynergize">
+			<tr>
+				<th><i class="fa fa-random"></i> Completely Synergize</th>
+			</tr>
+			<tr>
+				<td>Resource Taxing</td>
+			</tr>
+			<tr>
+				<td>Premier Niche Markets <button class="New-Btn">New</button></td>
+			</tr>
+			<tr>
+				<td>Dynamically Innovate</td>
+			</tr>
+			<tr>
+				<td>Objectively Innovate</td>
+			</tr>
+			<tr>
+				<td>Proactively Envisioned</td>
+			</tr>
+		</table>
+
+		<div class="alert">
+			<div class="w3-panel w3-pale-red w3-round w3-display-container w3-text-red " style="height: 45px; padding: 1%;">
+				<p>
+					<b>Synergize:</b> Seamlessly visualize quality intellectual capital!
+				</p>
+				<span onclick="this.parentElement.style.display='none'"
+					class="w3-button  w3-large w3-display-right">x</span>
+			</div>
+			<br>
+			
+			<h2><img src="https://tse1.mm.bing.net/th?id=OIP.T1xyb_EmksDEBMmBkpWwwgHaGW&pid=Api&P=0&w=178&h=153.jpg" id="left" height="100" width="100">Premier Niche Markets</h2>
+			<p>Phosfluroescently engage worldwide methodologies with web-enabled
+				technology. Interactively coordinate proactive e-commerce process-
+				centric "outside the box" thinking. Completely pursue scalable customer
+				service through sustainable potentialities. </p>
+				<br>
+					<i class='fas fa-comment-alt'></i><a href="#"> 2 Comments  </a> <i class='fas fa-share-square'></i> <a href="#">8 Shares</a>
+				<hr>
+				<h2><img src="https://tse3.mm.bing.net/th?id=OIP.lfWvsK3oXMQJ0HzRhUKKEAHaE8&pid=Api&P=0&w=285&h=190.jpg" id="left" height="100" width="100">Proactively Envisioned</h2>
+				<p>Seamlessly visualize quality intellectual capital without superior
+					collaboration and idea-sharing. Holistically ponticate installed base 
+					portals after maintainable products. Proactively envisioned multimedia
+					based expertise and cross-media grow strategies.</p>
+					<br>
+					<i class='fas fa-comment-alt'></i><a href="#"> 12 Comments  </a> <i class='fas fa-share-square'></i> <a href="#">18 Shares</a>
+					<hr>
+					<h2><img src="https://tse3.mm.bing.net/th?id=OIF.4Q85eKkYAQqN342692ZsSw&pid=Api&P=0&w=179&h=133.jpg" id="left" height="100" width="100">Completely Synergize</h2>
+					<p>Completely synergize resource taxing relationships via premier niche 
+					   markets. Professionally cultivate one-to-one customer service with robust 
+					   ideas. Dynamically innovate resource-leveling customer service for state 
+					   of the art customer service.
+					</p>
+					<br>
+					<i class='fas fa-comment-alt'></i><a href="#"> 23 Comments  </a> <i class='fas fa-share-square'></i> <a href="#">22 Shares</a>
+			<div class="w3-display-topright" style="margin-top: 118px; margin-right: 60px;">
+				<br>
+				<input type="text" style="width: 130px; margin-right: 0.3px;">
+				<button class="w3-button w3-round" style="border: 2px solid black; border-radius: 10px;"><i class="fa fa-search"></i> Search</button>
+			</div>
+		</div>
+	</div>
+	<br>
+	<div class="w3-card-3 w3-container" style="border: 1px solid #f0f0f0; width:25%; margin-left:15px;"
+		style="display: flex; justify-content: center;">
+		<div class="w3-container w3-light-grey">
+			<i class='fas fa-cog'></i> Dramatically Engage
+		</div>
+		<br>
+		<div>
+			<p>
+				Objectively innovate empowered manufactured products whereas
+				parallel platforms. Holistically predominate extensible testing
+				procedures for reliable supply chains. Dramatically engage
+				top-line web services vis-a-vis cutting-edge deliverables.
+			</p>
+			<button class="w3-button" style="border: 1px solid #f0f0f0;">Engage</button>
+		</div>
+    <br>
+	</div>
+	</div>
+    <div class="w3-card-3 w3-container w3-display-right" style="border: 1px solid #f0f0f0; text-align: center; width:20%;display: flex; justify-content: center;">
+		<div class="w3-white" style="width: 250px;">
+		  <h4><span class="glyphicon glyphicon-scale" style="background-color: lightgray; width: 100%;"> Dramatically Engage</h4> </span>
+		  <div class="w3-light-grey w3-round">
+			<div class="w3-green" style="height: 24px; width: 100%">
+			  100% Proactively Envisioned
+			</div>
+		  </div>
+			<br>
+			<div class="w3-light-grey w3-round">
+			  <div class="w3-blue" style="height: 24px; width: 80%">
+				80% Objectively Innovated
+			  </div>
+			</div>
+			<br>
+			<div class="w3-light-grey w3-round">
+			  <div class="w3-orange w3-text-white" style="height: 24px; width: 45%">
+				45% Portalled
+			  </div>
+			</div>
+			<br>
+			<div class="w3-light-grey w3-round">
+			  <div class="w3-red" style="height: 24px; width: 35%">
+				35% Done
+			  </div>
+			</div>
+            <br>
+            <br>
+		</div>
+	  </div>
+	  
+	  <div class="w3-card-3 w3-container w3-display-right" style="border: 1px solid #f0f0f0; margin-top: 200px; width:20%; margin-left:15px;"
+		style="display: flex; justify-content: center;">
+		<div class="w3-container w3-light-grey">
+			<i class="fa fa-bullhorn"></i> Active Predomination
+		</div>
+		<div>
+			<p>
+				Proactively enbisioned multimedia based expertise and cross-media growth strategies.
+			</p>
+			<button class="w3-button" style="border: 1px solid #f0f0f0;">Resource</button>
+			<button class="w3-button" style="border: 1px solid #f0f0f0;">Envision</button>
+			<button class="w3-button" style="border: 1px solid #f0f0f0;">Niche</button>
+		</div>
+    <br>
+	</div>
+
+		<br><br><br><br><br><br><br>
+	  <div class="grid-container">
+		<div class="item1"><span class="glyphicon glyphicon-text-size"></span><b> Dynamic</b><br>
+		  collaboratively administrate empowered 
+			markets via plug-and-play networks. 
+			Dynamically procrastinate B2C users 
+			after installed base benefits. 
+			Dramatically visualize customer directed 
+			convergence without revolutionary ROI.<br><br>
+			<button class="w3-button" style="border: 1px solid #F1EDF2;">Procrastinate</button></div>
+		
+		<div class="item2"><i class='fas fa-wrench'></i><b> Efficient</b><br>
+		  Dramatically maintain clicks-and-mortar solutions without functional solutions. Efficiently unleash cross-media information without cross-media value. Quickly maximize timely deliverables for real-time schemas.<br>
+		  <br><button class="w3-button" style="border: 1px solid #F1EDF2;">Unleash</button></div>
+	  
+		<div class="item3"><i class='fas fa-paperclip'></i><b> Complete</b><br>
+		  Professionally cultivate one-to-one customer service with robust ideas. Completely synergize resource taxing relationships via premier niche markets. Dynamically innovate resource-levelling customer service for state of the art customer service.<br>
+		  <br><button class="w3-button" style="border: 1px solid #F1EDF2;">Complete</button></div>
+		<div class="item4"><i class='fas fa-camera'></i><b> Phosfluorescent</b><br>
+		  <img src="https://tse2.mm.bing.net/th?id=OIP.Tyv_JgM_1fBtq978BCE9oQHaFj&pid=Api&P=0&w=231&h=173.jpg" height="70" width="100">
+		  <img src="https://tse4.mm.bing.net/th?id=OIP.rl15JejrzBiwF7tm6AHHwQHaFj&pid=Api&P=0&w=235&h=176.jpg" height="70" width="100">
+		  <br><br>
+		  <img src="https://tse2.mm.bing.net/th?id=OIP.uw9Vn15EHsI742sC0hoBzQHaFs&pid=Api&P=0&w=225&h=173.jpg" height="70" width="100">
+		  <img src="https://tse3.mm.bing.net/th?id=OIP.qqgdPGA6jkl3g0L99awxkAHaE8&pid=Api&P=0&w=260&h=173.jpg" height="70" width="100">
+		  
+		  </div> 
+	  </div>
+	  
+	  <br>
+	  <center><a href="t.com">Terms & Conditions </a>| <a href="#">Privacy Policy </a>| <a href="#">Contact</a></center>
+	  <br>
+	  <center>Copyright <i class='far fa-copyright'></i> Example.com 2015</center>
+
+
+</body>
+</html>
