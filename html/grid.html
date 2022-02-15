@@ -1,0 +1,81 @@
+<!DOCTYPE html>
+<html>
+<head><title>Let's learn about grid</title>
+<style>
+header{
+    background-color: teal;
+    padding: 2px;
+    height: 9vh;
+}
+
+body{
+    margin: 0%;
+}
+.container{
+    display: grid;
+    grid-template-columns: auto auto auto;
+    height: 530px;
+}
+
+header, footer , .c1, .c2, .c3{
+    font-size: 2vw;
+    padding: 20px;
+}
+
+.c1{
+    background-color: cadetblue;
+}
+
+.c2{
+    background-color: darkseagreen;
+}
+
+.c3{
+    background-color: lightcoral;
+}
+
+.prop{
+    font-size: 1.2vw;
+}
+
+footer{
+    background-color: lightslategray;
+    padding: 2px;
+    height: 14vh;
+}
+
+
+</style></head>
+<body>
+    <header><center>Grid</center></header>
+    <div class="container">
+        <div class="c3" style="font-size: 1.5vw;">CSS Grid Layout, is a two-dimensional grid-based layout system that, compared to any web layout system of the past, completely changes the way we design user interfaces.
+            Grid is the very first CSS module created specifically to solve the layout problems.
+            The Grid layout is intended for larger scale layouts.
+            To get started you have to define a container element as a grid with display: grid, set the column and row sizes with grid-template-columns and grid-template-rows, and then place its child elements into the grid with grid-column and grid-row.<br> 
+            <img src="https://tse2.mm.bing.net/th?id=OIP.dAD0LKhynU5vLIng03M7RwHaFI&pid=Api&P=0&w=260&h=180" height="200" width="200">
+        </div>
+        <div class="c1">Properties for the Parent (Grid Container) 
+            <ul class="prop">
+                <li><strong>display	:</strong> Defines the element as a grid container and establishes a new grid formatting context for its contents.</li>
+                <li><strong>grid-template-areas :</strong> Defines a grid template by referencing the names of the grid areas which are specified with the grid-area property.</li>
+                <li><strong>grid-template :</strong> A shorthand for setting grid-template-rows, grid-template-columns, and grid-template-areas in a single declaration.</li>
+                <li><strong>justify-content :</strong> This property aligns the grid along the inline (row) axis (as opposed to align-content which aligns the grid along the block.</li>
+                <li><strong>align-content :</strong>This property aligns the grid along the block (column) axis (as opposed to justify-content which aligns the grid along the inline (row) axis).</li>
+                <li><strong>grid :</strong>A shorthand for setting all of the following properties in a single declaration: grid-template-rows, grid-template-columns, grid-template-areas, grid-auto-rows, grid-auto-columns, and grid-auto-flow</li>
+            </ul>
+        </div>
+       
+        <div class="c2">Properties for the Children (Grid Items)
+            <ul class="prop">
+                <li><strong>grid-area :</strong> Gives an item a name so that it can be referenced by a template created with the grid-template-areas property.</li>
+                <li><strong>justify-self :</strong> Aligns a grid item inside a cell along the inline (row) axis.</li>
+                <li><strong>align-self :</strong> Aligns a grid item inside a cell along the block (column) axis.</li>
+                <li><strong>place-self :</strong> place-self sets both the align-self and justify-self properties in a single declaration.</li>
+                <li><strong>Subgrid :</strong> Subgrid is an extremely useful feature of grids that allows grid items to have a grid of their own that inherits grid lines from the parent grid.</li>
+            </ul>
+        </div>
+    </div>
+    <footer></footer>
+</body>
+</html>
