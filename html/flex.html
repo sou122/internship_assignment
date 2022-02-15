@@ -1,0 +1,91 @@
+<!DOCTYPE html>
+<html>
+<head><title>Let's Learn about Flex</title>
+<style>
+header{
+    background-color: teal;
+    padding: 2px;
+    height: 10vh;
+}
+
+body{
+    margin: 0;
+  }
+
+.container{
+    display: flex;
+}
+
+header, footer , .c1, .c2, .c3{
+    font-size: 3vw;
+    padding: 20px;
+}
+
+.container{
+    display: flex;
+    min-height: calc(100vh - 30vh);
+  }
+
+.c1{
+    background-color: cadetblue;
+    flex: 1;
+}
+
+.c2{
+    background-color: darkseagreen;
+    flex: 1;
+}
+
+.c3{
+    background-color: lightcoral;
+    flex: 1;
+}
+
+.prop{
+    font-size: 2vw;
+}
+
+footer{
+    background-color: lightslategray;
+    padding: 2px;
+    height: 15vh;
+}
+
+ 
+
+</style>
+</head>
+<body>
+    <header><center>Flex</center></header>
+    <div class="container">
+        <div class="c3" style="font-size: 2.5vw;">
+            The Flexbox Layout module aims at providing a more efficient way to lay out, align and distribute space among items in a container, even when their size is unknown and/or dynamic.
+            The main idea behind the flex layout is to give the container the ability to alter its items’ width/height (and order) to best fill the available space.
+            Flexbox layout is most appropriate to the components of an application,and small-scale layouts.<br>
+            <img src="https://1stwebdesigner.com/wp-content/uploads/2018/01/03-css-tricks-flexbox-guide.jpg" height="300" width="300">
+        </div>
+        <div class="c1">Properties for the Parent (flex container) 
+            <ul class="prop">
+            <li><strong>display	:</strong> This defines a flex container; inline or block depending on the given value.</li>
+            <li><strong>flex-wrap :</strong> it specifies whether the flex items should wrap or not, if there is not enough room for them on one flex line.</li>
+            <li><strong>flex-flow :</strong> it specifies a shorthand property for flex-direction and flex-wrap.</li>
+            <li><strong>justify-content :</strong> it is used to align the flex items horizontally when the items do not use all available space on the main-axis.</li>
+            <li><strong>align-items :</strong> it is used to align the flex items vertically when the items do not use all available space on the cross-axis.</li>
+            <li><strong>align-content :</strong> it is used to modify the behavior of the flex-wrap property. it is similar to align-items, but instead of aligning flex items, it aligns flex lines.</li>
+            </ul>
+        </div>
+        <div class="c2">Properties for the Children (flex items)
+            <ul class="prop">
+                <li><strong>order :</strong> The order property controls the order in which they appear in the flex container.</li>
+                <li><strong>flex-grow :</strong> This defines the ability for a flex item to grow if necessary.</li>
+                <li><strong>flex-shrink :</strong> This defines the ability for a flex item to shrink if necessary.</li>
+                <li><strong>flex :</strong> This is the shorthand for flex-grow, flex-shrink and flex-basis combined.</li>
+                <li><strong>align-self :</strong> This allows the default alignment (or the one specified by align-items) to be overridden for individual flex items.</li>
+                <li><strong>flex-basis :</strong> This defines the default size of an element before the remaining space is distributed.</li>
+                </ul>
+        </div>
+        
+    </div>
+    <footer><center>Thankyou!!</center></footer>
+</body>
+</html>
