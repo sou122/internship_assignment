@@ -7,11 +7,10 @@ function convertarr(args)
         {
             let b=a.join(" ");
             let c=b.split("");
-            let index = c.indexOf(")");
+            let index=c.indexOf(")");
             let ind=c.indexOf("(");
-            c.splice(index + 1, 0, "=>");
+            c.splice(index+1,0,"=>");
             c.splice(0,ind);
-            
             console.log(c.join(""));
         }
     }
@@ -29,7 +28,7 @@ function convertfunc(args)
             let b=args.replace("=>"," { return ");
             let c=b.split("");
             let index = b.indexOf("(");
-            c.splice(index, 0, "function");
+            c.splice(index,0,"function");
             let d=c.join("");
             let e=d.split("");
             e.push(" }");
